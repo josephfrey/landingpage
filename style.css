@@ -16,7 +16,7 @@
 .btn-brand{
     background-color: rgb(21, 56, 211) !important;
 
-    color: rgb(209, 211, 207) !important;
+    color: rgb(68, 233, 18) !important;
 }
 
 .btn-brand:hover{
@@ -36,7 +36,7 @@
 }
 
 #banner{
-    background: url('p1.jpg');
+    background: url('pp.jpeg');
     height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,11 +47,12 @@
 h1{
     font-family: 'Times New Roman', Times, serif;
     
-    color: rgb(18, 18, 75);
+    color:white
 
 }
  #banner p{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
  }
  
