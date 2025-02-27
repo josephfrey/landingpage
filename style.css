@@ -56,3 +56,34 @@ h1{
     color: white;
  }
  
+ 
+ .card-img-top {
+    width: 35% !important;
+
+    
+}
+.card {
+padding: 20px;
+border: 3px solid rgb(110, 168, 34) !important;
+transition: all ease-in-out .4s;    
+
+}
+.card:hover{
+box-shadow: 0 0 10px 5px rgb(118, 127, 108) !important;
+border-color: 3px solid rgb(213, 223, 192) !important;
+transform: scale(1.1);
+background-color: rgb(149, 164, 172);
+}
+
+.card:hover .card-title, .card:hover .card-text{
+color: rgb(255, 255, 255) !important;
+} 
+section{
+padding: 100px
+}
+#sugpon h2{
+font-family: 'Times New Roman', Times, serif;
+color: rgb(67, 93, 93);
+font-size: 65px;
+margin-bottom: 30px;
+}
