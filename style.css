@@ -1,5 +1,8 @@
+*{
+    font-family: 'Times New Roman', Times, serif!important;
+}
 .navbar{
-    height: 10vh;
+    height:10vh;
 }
 .navbar-brand{
     font-family: 'Times New Roman', Times, serif;
@@ -14,19 +17,19 @@
 }
 
 .btn-brand{
-    background-color: rgb(21, 56, 211) !important;
+    background-color: rgb(27, 232, 154) !important;
 
-    color: rgb(68, 233, 18) !important;
+    color: rgb(45, 50, 44) !important;
 }
 
 .btn-brand:hover{
     border: 2px solid rgb(39, 138, 125) !important;
-    color: blue !important; 
+    color: rgb(164, 208, 62) !important; 
 }
 
 .btn-brand-navbar{
     border: 2px solid rgb(26, 97, 38) !important;
-    color: rgb(25, 90, 90) !important;
+    color: rgb(74, 212, 212) !important;
 }
 
 .navbar .nav-link {
@@ -36,8 +39,8 @@
 }
 
 #banner{
-    background: url('pp.jpeg');
-    height: 90vh;
+    background: url('p1.jpg');
+    height:90vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -47,23 +50,24 @@
 h1{
     font-family: 'Times New Roman', Times, serif;
     
-    color:white
+    color:rgb(30, 2, 2)
 
 }
  #banner p{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: rgb(45, 28, 93);
  }
  
  
  .card-img-top {
-    width: 35% !important;
+    width:35% !important;
 
     
 }
 .card {
 padding: 20px;
+margin-top: 20px;
 border: 3px solid rgb(110, 168, 34) !important;
 transition: all ease-in-out .4s;    
 
@@ -79,11 +83,54 @@ background-color: rgb(149, 164, 172);
 color: rgb(255, 255, 255) !important;
 } 
 section{
-padding: 100px
+padding: 5px
 }
 #sugpon h2{
 font-family: 'Times New Roman', Times, serif;
 color: rgb(67, 93, 93);
 font-size: 65px;
 margin-bottom: 30px;
+}
+
+#about{
+    background-color: rgb(36, 34, 36);
+}
+
+#about IMG{
+    border: 5PX solid chocolate;
+}
+#about .btn-brand{
+background-color: chocolate !important;
+color: rgb(234, 251, 0) !important;
+}
+
+#about h2{
+    color: rgb(15, 48, 209) !important;;
+    font-size: 55px !important;
+
+
+}
+.wew{
+    width: 65px;
+}
+
+.testimonials{
+    border: 3px solid rgb(67, 84, 51);
+    padding: 20px ;
+    margin: 20px;
+}
+
+.testimonials:hover{
+    transform: scale(1.1);
+    color: chocolate;
+    border: 3px solid rgb(229, 30, 222);
+}
+
+#reviews h2{
+    font-size: 55px;
+
+}
+
+#faq{
+    background-color: rgb(163, 160, 160);
 }
